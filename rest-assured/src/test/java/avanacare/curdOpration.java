@@ -8,7 +8,7 @@ public class curdOpration {
 	public void getUsers(){
 		given()
 		.when()
-		.get("https://anvnacare.alwaysdata.net/login")
+		.get("https://anvnacare.alwaysdata.net/api/users.php")
 		.then()
 		.log().all();
 		
