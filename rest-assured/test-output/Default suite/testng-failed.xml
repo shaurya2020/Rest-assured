@@ -5,7 +5,7 @@
     <classes>
       <class name="avanacare.curdOpration">
         <methods>
-          <include name="getUsers"/>
+          <include name="deleteUser"/>
         </methods>
       </class> <!-- avanacare.curdOpration -->
     </classes>

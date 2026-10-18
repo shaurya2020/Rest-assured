@@ -8,9 +8,44 @@ public class curdOpration {
 	public void getUsers(){
 		given()
 		.when()
-		.get("https://anvnacare.alwaysdata.net/api/users.php?page=2")
+		.get("https://reqres.in/api/users/2")
 		.then()
 		.statusCode(200)
-		.log().all();
+		.body("data.id", equalTo(2));
 	}
+	@Test
+	public void postUsers() {
+	    given()
+	        .contentType("application/json")
+	        .body("{\"name\":\"Addha Babu\""
+	        		+ ",\"job\":\"QA\"}")
+
+	    .when()
+	        .post("https://reqres.in/api/users/2")
+	    .then()
+	        .statusCode(201)
+	        .body("name", equalTo("Addha Babu"));
+	}
+	@Test
+	public void putUser() {
+	given()
+		.header("Content-Type","application/json")
+		.body("{\"job\":\"Lead\"}")
+
+	.when()
+		.put("https://reqres.in/api/users/2")
+	.then()
+        .statusCode(200);
+	}
+	@Test
+	public void deleteUser() {
+		given()
+		.when()
+			.delete("https://reqres.in/api/users/2")
+		.then()
+	        .statusCode(204);
+		}
 }
+	
+	
+

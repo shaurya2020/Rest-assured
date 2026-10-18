@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-18T09:43:15 IST" name="Default suite" finished-at="2026-10-18T09:43:17 IST" duration-ms="2742">
+  <suite started-at="2026-10-18T11:28:05 IST" name="Default suite" finished-at="2026-10-18T11:28:07 IST" duration-ms="2198">
     <groups>
     </groups>
-    <test started-at="2026-10-18T09:43:15 IST" name="Default test" finished-at="2026-10-18T09:43:17 IST" duration-ms="2742">
+    <test started-at="2026-10-18T11:28:05 IST" name="Default test" finished-at="2026-10-18T11:28:07 IST" duration-ms="2198">
       <class name="avanacare.curdOpration">
-        <test-method signature="getUsers()[pri:0, instance:avanacare.curdOpration@661972b0]" started-at="2026-10-18T09:43:15 IST" name="getUsers" finished-at="2026-10-18T09:43:17 IST" duration-ms="2701" status="PASS">
+        <test-method signature="deleteUser()[pri:0, instance:avanacare.curdOpration@5ffead27]" started-at="2026-10-18T11:28:05 IST" name="deleteUser" finished-at="2026-10-18T11:28:07 IST" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsers -->
+        </test-method> <!-- deleteUser -->
       </class> <!-- avanacare.curdOpration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
