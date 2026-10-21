@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="avanacare.curdOpration">
+      <class name="learnig_postmethod.WeysToCreateBody">
         <methods>
-          <include name="deleteUser"/>
+          <include name="byHashMap"/>
         </methods>
-      </class> <!-- avanacare.curdOpration -->
+      </class> <!-- learnig_postmethod.WeysToCreateBody -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
