@@ -18,14 +18,14 @@ public class curdOpration {
 	public void postUsers() {
 	    given()
 	        .contentType("application/json")
-	        .body("{\"name\":\"Addha Babu\""
+	        .body("{\"name\":\"ayush\""
 	        		+ ",\"job\":\"QA\"}")
 
 	    .when()
 	        .post("https://reqres.in/api/users/2")
 	    .then()
 	        .statusCode(201)
-	        .body("name", equalTo("Addha Babu"));
+	        .body("name", equalTo("ayush"));
 	}
 	
 	@Test

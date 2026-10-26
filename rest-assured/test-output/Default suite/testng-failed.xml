@@ -6,6 +6,8 @@
       <class name="learnig_postmethod.WeysToCreateBody">
         <methods>
           <include name="byHashMap"/>
+          <include name="byJsonObject"/>
+          <include name="byPOJO"/>
         </methods>
       </class> <!-- learnig_postmethod.WeysToCreateBody -->
     </classes>
