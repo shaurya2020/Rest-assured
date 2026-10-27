@@ -9,6 +9,6 @@ public class JavaUtility {
 
 	public static int generateRandomNumber(int max) {
 		return new Random().nextInt(max);
-	}
 
+	}
 }
